@@ -1,0 +1,51 @@
+#heading{
+    font-weight: 600;
+    color: red;
+    font-size: 50px;
+    padding: 50px;
+}
+*{
+    text-align: center;
+    
+}
+
+.event__text{
+    height: 70vh;
+}
+
+.event-button {
+    display: inline-block;
+    background: var(--tertiary);
+    color: var(--primary);
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition)
+}
+.event-button:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 15px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+/* ================phones============================ */
+
+
+@media screen and (max-width: 600px) {
+
+
+
+    .event-button {
+        margin-bottom:1rem;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 15px 20px 0 rgba(0,0,0,0.19);
+
+    }
+
+
+} 
+
+
+
+
